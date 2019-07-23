@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+
 #include <iostream>
 #include <list>
 using namespace std;
@@ -52,6 +54,6 @@ int main() {
     g.addEdge(5, 2); 
     g.addEdge(6, 0);
     
-    g.DFS(5);
+    g.DFS(0);
 	return 0;
 }
